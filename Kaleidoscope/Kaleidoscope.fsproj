@@ -6,7 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Lexer.fs" />
     <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StirlingLabs.libLLVM" Version="14.0.6.4" />
   </ItemGroup>
 
 </Project>

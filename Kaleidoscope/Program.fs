@@ -1,2 +1,9 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+﻿open Kaleidoscope
+open Lexer
+
+[<EntryPoint>]
+let main args =
+    let lexer = Lexer()
+    printfn $"{lexer.GetNextToken()}"
+
+    0
