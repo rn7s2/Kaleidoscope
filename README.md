@@ -2,4 +2,4 @@
 
 This is the F# translation of the LLVM tutorial.
 
-This tutorial is using [dotnet/LLVMSharp](https://github.com/dotnet/LLVMSharp) as the .NET LLVM binding.
+This tutorial is using [StirlingLabs/LLVMSharp](https://github.com/StirlingLabs/LLVMSharp) as the .NET LLVM binding.
